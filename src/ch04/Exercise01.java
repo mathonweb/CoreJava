@@ -19,13 +19,17 @@ public class Exercise01 {
         // Test hashcode
         System.out.println("Hash number = " + coord.hashcode());
 
+        //Exercise #3
+        System.out.println("Exercise #3");
+        System.out.println("Coord X = " + coord.getX());
+
     }
 }
 
 
 class Point {
-    private double x;
-    private double y;
+    protected double x;
+    protected double y;
 
     public Point(double x, double y){
         this.x = x;
