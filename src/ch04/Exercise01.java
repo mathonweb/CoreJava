@@ -1,9 +1,24 @@
 package ch04;
 
+import java.util.Objects;
+
 public class Exercise01 {
     public static void main(String[] args) {
         //Exercise #1
         System.out.println("Exercise #1");
+        //Exercise #2
+        System.out.println("Exercise #2");
+
+        // Test toString
+        LabeledPoint coord = new LabeledPoint("left", -1, 0);
+        System.out.println("First coord = " + coord.toString());
+
+        // Test equals
+        System.out.println("Is it equal ? = " + coord.equals(0, 0));
+
+        // Test hashcode
+        System.out.println("Hash number = " + coord.hashcode());
+
     }
 }
 
@@ -36,5 +51,18 @@ class LabeledPoint extends Point {
 
     public String getLabel(){
         return this.label;
+    }
+
+    public String toString(){
+        return "" + getX() + ", " + getY();
+    }
+
+    public boolean equals(double x, double y){
+        if (this.getX() == x && this.getY() == y) return true;
+        else return false;
+    }
+
+    public int hashcode(){
+        return Objects.hash(getX(), getY(), this.label);
     }
 }
