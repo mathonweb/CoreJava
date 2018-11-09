@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3912be-9677-4d7a-be06-d2f33c7a65d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch04/Exercise04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04/Exercise04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04/Exercise04.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,12 +51,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13591" />
+          <entry key="java" value="14096" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13591" />
+          <entry key="JAVA" value="14096" />
         </counts>
       </usages-collector>
     </session>
@@ -121,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch04/Exercise04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="282">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
               <folding>
                 <element signature="e#555#556#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
@@ -130,10 +129,8 @@
                 <element signature="e#622#623#0" expanded="true" />
                 <element signature="e#989#990#0" expanded="true" />
                 <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#2453#2454#0" expanded="true" />
+                <element signature="e#2482#2483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541724797962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541729843680" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/opencsv-4.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -362,13 +359,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.32249466" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.32249466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5005417" side_tool="true" weight="0.32249466" />
+      <window_info id="Favorites" order="6" sideWeight="0.5007278" side_tool="true" weight="0.32249466" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25568798" />
@@ -639,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch04/Exercise04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="282">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
           <folding>
             <element signature="e#555#556#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
@@ -648,10 +645,8 @@
             <element signature="e#622#623#0" expanded="true" />
             <element signature="e#989#990#0" expanded="true" />
             <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
