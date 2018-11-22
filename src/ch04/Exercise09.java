@@ -6,7 +6,7 @@ public class Exercise09 {
 
     public static void main(String[] args) {
         //Exercise #9
-        System.out.println("Exercise #7");
+        System.out.println("Exercise #9");
 
         // Create an object
         Empl empl1 = new Empl("Math");
