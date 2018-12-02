@@ -6,8 +6,8 @@ import java.lang.reflect.Method;
 
 public class Exercise12 {
     public static void main(String[] args) {
-        //Exercise #11
-        System.out.println("Exercise #11");
+        //Exercise #12
+        System.out.println("Exercise #12");
 
         try {
             // Get Field out
