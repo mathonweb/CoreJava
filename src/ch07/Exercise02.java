@@ -24,8 +24,24 @@ public class Exercise02 {
     }
 
     // Loop over the index values
+    private static ArrayList<String> loopOverCaseConv(ArrayList<String> stringsList){
+        ArrayList<String> upperCaseStrings = new ArrayList<>();
+
+        for(int index = 0; index < stringsList.size(); index ++){
+            upperCaseStrings.add(stringsList.get(index).toUpperCase());
+        }
+        return upperCaseStrings;
+    }
 
     // replaceAll method
+    private static ArrayList<String> replaceAllCaseConv(ArrayList<String> stringsList){
+
+        ArrayList<String> upperCaseStrings = stringsList;
+
+        upperCaseStrings.replaceAll((e)-> e.toUpperCase());
+
+        return upperCaseStrings;
+    }
 
     public static void main(String[] args) {
         //Exercise #02
@@ -33,9 +49,27 @@ public class Exercise02 {
 
         ArrayList<String> stringsList = createStringsList();
 
-        ArrayList<String> upperCaseStrings = iteratorCaseConv(stringsList);
+        System.out.println("Using iterator");
+        ArrayList<String> iteratorUpperCaseStrings = iteratorCaseConv(stringsList);
 
-        for(String element : upperCaseStrings){
+        // Print result
+        for(String element : iteratorUpperCaseStrings){
+            System.out.println(element);
+        }
+
+        System.out.println("Using Loop over");
+        ArrayList<String> loopOverUpperCaseStrings = loopOverCaseConv(stringsList);
+
+        // Print result
+        for(String element : loopOverUpperCaseStrings){
+            System.out.println(element);
+        }
+
+        System.out.println("Using replaceAll");
+        ArrayList<String> replaceAllUpperCaseStrings = replaceAllCaseConv(stringsList);
+
+        // Print result
+        for(String element : replaceAllUpperCaseStrings){
             System.out.println(element);
         }
     }
