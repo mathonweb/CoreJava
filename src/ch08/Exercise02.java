@@ -17,6 +17,7 @@ public class Exercise02 {
         Long timeStop = System.currentTimeMillis();
         Long diffTime = timeStop - timeStart;
 
+        System.out.println("Count Long Word using stream = " + countLongWord);
         System.out.println("Diff time for Stream = "+ diffTime+"ms");
 
         timeStart = System.currentTimeMillis();
@@ -24,6 +25,7 @@ public class Exercise02 {
         timeStop = System.currentTimeMillis();
         diffTime = timeStop - timeStart;
 
+        System.out.println("Count Long Word using parallelStream= " + countLongWord);
         System.out.println("Diff time for ParallelStream = "+ diffTime+"ms");
     }
 }

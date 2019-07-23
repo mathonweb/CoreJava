@@ -20,6 +20,5 @@ public class Exercise01 {
 
         firstFiveLongWord.forEach(System.out::println);
 
-
     }
 }
