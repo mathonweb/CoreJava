@@ -5,8 +5,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Exercise02 {
@@ -68,7 +66,7 @@ public class Exercise02 {
 
             System.out.println("Alphabetization is done");
 
-        } catch (IOException  e) {
+        } catch (IOException e) {
             System.out.println("An I/O error occurs during opening the file: " + e);
         }
     }
